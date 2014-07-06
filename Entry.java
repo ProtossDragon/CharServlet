@@ -38,8 +38,7 @@ public class Entry {
 	
 	private String getTimeInString(){
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		dateFormat.format(time.getTime());
-		return null;
+		return dateFormat.format(time.getTime());
 	}
 	
 }
